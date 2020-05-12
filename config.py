@@ -1,4 +1,5 @@
 class Config:
+    SECRET_KEY = ('1234')
 
     SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://hudson:1234@localhost/events'
     
